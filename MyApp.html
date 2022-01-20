@@ -1,0 +1,565 @@
+<!Doctype html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<title>Web Browser Docs</title>
+
+<body>
+
+<div class="header">
+    <h1>
+        Fastest Fast Web Browser APIs
+    </h1>
+</div>
+<div class="navigation">
+    <ul>
+        <li>HTML Reference</li>
+        <li>JS Reference</li>
+        <Li>Tutorials</Li>
+    </ul>
+</div>
+
+<div class="basics">
+    <h2>Basics of HTML - .html Files</h2>
+
+    <h3>Syntax HTML Code : </h3>
+    <h2>
+        &lt 
+        <select for="html-tag">
+            <option value="HTML Tags">HTML Tag</option>
+            <option value="a">a</option>
+            <option value="abbr">abbr</option>
+            <option value="address">address</option>
+            <option value="area">area</option>
+            <option value="article">article</option>
+            <option value="aside">aside</option>
+            <option value="audio">audio</option>
+            <option value="b">b</option>
+            <option value="base">base</option>
+            <option value="bdo">bdo</option>
+            <option value="blockquote">blockquote</option>
+            <option value="body">body</option>
+            <option value="br">br</option>
+            <option value="button">button</option>
+            <option value="canvas">canvas</option>
+            <option value="caption">caption</option>
+            <option value="cite">cite</option>
+            <option value="code">code</option>
+            <option value="col">col</option>
+            <option value="colgroup">colgroup</option>
+            <option value="datalist">datalist</option>
+            <option value="dd">dd</option>
+            <option value="del">del</option>
+            <option value="details">details</option>
+            <option value="dfn">dfn</option>
+            <option value="dialog">dialog</option>
+            <option value="div">div</option>
+            <option value="dl">dl</option>
+            <option value="dt">dt</option>
+            <option value="em">em</option>
+            <option value="embed">embed</option>
+            <option value="fieldset">fieldset</option>
+            <option value="figcaption">figcaption</option>
+            <option value="figure">figure</option>
+            <option value="footer">footer</option>
+            <option value="form">form</option>
+            <option value="head">head</option>
+            <option value="header">header</option>
+            <option value="h1">h1</option>
+            <option value="hr">hr</option>
+            <option value="html">html</option>
+            <option value="i">i</option>
+            <option value="iframe">iframe</option>
+            <option value="img">img</option>
+            <option value="ins">ins</option>
+            <option value="input">input</option>
+            <option value="kbd">kbd</option>
+            <option value="label">label</option>
+            <option value="legend">legend</option>
+            <option value="li">li</option>
+            <option value="link">link</option>
+            <option value="map">map</option>
+            <option value="mark">mark</option>
+            <option value="menu">menu</option>
+            <option value="menuitem">menuitem</option>
+            <option value="meta">meta</option>
+            <option value="meter">meter</option>
+            <option value="nav">nav</option>
+            <option value="object">object</option>
+            <option value="ol">ol</option>
+            <option value="optgroup">optgroup</option>
+            <option value="option">option</option>
+            <option value="output">output</option>
+            <option value="p">p</option>
+            <option value="param">param</option>
+            <option value="pre">pre</option>
+            <option value="progress">progress</option>
+            <option value="q">q</option>
+            <option value="s">s</option>
+            <option value="samp">samp</option>
+            <option value="script">script</option>
+            <option value="section">section</option>
+            <option value="select">select</option>
+            <option value="small">small</option>
+            <option value="source">source</option>
+            <option value="span">span</option>
+            <option value="strong">strong</option>
+            <option value="style">style</option>
+            <option value="sub">sub</option>
+            <option value="summary">summary</option>
+            <option value="sup">sup</option>
+            <option value="table">table</option>
+            <option value="tbody">tbody</option>
+            <option value="td">td</option>
+            <option value="tfoot">tfoot</option>
+            <option value="th">th</option>
+            <option value="thead">thead</option>
+            <option value="tr">tr</option>
+            <option value="textarea">textarea</option>
+            <option value="time">time</option>
+            <option value="title">title</option>
+            <option value="track">track</option>
+            <option value="u">u</option>
+            <option value="ul">ul</option>
+            <option value="var">var</option>
+            <option value="video">video</option>
+        </select> 
+
+        <select for="attributes">
+            <option value="HTML Attributes">HTML Attribute</option>
+            <option value="accept">accept</option>
+            <option value="accept-charset">accept-charset</option>
+            <option value="accesskey">accesskey</option>
+            <option value="action">action</option>
+            <option value="alt">alt</option>
+            <option value="async">async</option>
+            <option value="autocomplete">autocomplete</option>
+            <option value="autofocus">autofocus</option>
+            <option value="autoplay">autoplay</option>
+            <option value="border">border</option>
+            <option value="charset">charset</option>
+            <option value="checked">checked</option>
+            <option value="cite">cite</option>
+            <option value="class">class</option>
+            <option value="cols">cols</option>
+            <option value="colspan">colspan</option>
+            <option value="content">content</option>
+            <option value="contenteditable">contenteditable</option>
+            <option value="controls">controls</option>
+            <option value="coords">coords</option>
+            <option value="data">data</option>
+            <option value="data-*">data-*</option>
+            <option value="datetime">datetime</option>
+            <option value="default">default</option>
+            <option value="defer">defer</option>
+            <option value="dir">dir</option>
+            <option value="dirname">dirname</option>
+            <option value="disabled">disabled</option>
+            <option value="download">download</option>
+            <option value="draggable">draggable</option>
+            <option value="enctype">enctype</option>
+            <option value="for">for</option>
+            <option value="form">form</option>
+            <option value="formaction">formaction</option>
+            <option value="headers">headers</option>
+            <option value="height">height</option>
+            <option value="hidden">hidden</option>
+            <option value="high">high</option>
+            <option value="href">href</option>
+            <option value="hreflang">hreflang</option>
+            <option value="http-equiv">http-equiv</option>
+            <option value="id">id</option>
+            <option value="ismap">ismap</option>
+            <option value="kind">kind</option>
+            <option value="label">label</option>
+            <option value="lang">lang</option>
+            <option value="list">list</option>
+            <option value="loop">loop</option>
+            <option value="low">low</option>
+            <option value="max">max</option>
+            <option value="maxlength">maxlength</option>
+            <option value="media">media</option>
+            <option value="method">method</option>
+            <option value="min">min</option>
+            <option value="multiple">multiple</option>
+            <option value="muted">muted</option>
+            <option value="name">name</option>
+            <option value="novalidate">novalidate</option>
+            <option value="onabort">onabort</option>
+            <option value="onafterprint">onafterprint</option>
+            <option value="onbeforeprint">onbeforeprint</option>
+            <option value="onbeforeunload">onbeforeunload</option>
+            <option value="onblur">onblur</option>
+            <option value="oncanplay">oncanplay</option>
+            <option value="oncanplaythrough">oncanplaythrough</option>
+            <option value="onchange">onchange</option>
+            <option value="onclick">onclick</option>
+            <option value="oncontextmenu">oncontextmenu</option>
+            <option value="oncopy">oncopy</option>
+            <option value="oncuechange">oncuechange</option>
+            <option value="oncut">oncut</option>
+            <option value="ondblclick">ondblclick</option>
+            <option value="ondrag">ondrag</option>
+            <option value="ondragend">ondragend</option>
+            <option value="ondragenter">ondragenter</option>
+            <option value="ondragleave">ondragleave</option>
+            <option value="ondragover">ondragover</option>
+            <option value="ondragstart">ondragstart</option>
+            <option value="ondrop">ondrop</option>
+            <option value="ondurationchange">ondurationchange</option>
+            <option value="onemptied">onemptied</option>
+            <option value="onended">onended</option>
+            <option value="onerror">onerror</option>
+            <option value="onfocus">onfocus</option>
+            <option value="onhashchange">onhashchange</option>
+            <option value="oninput">oninput</option>
+            <option value="oninvalid">oninvalid</option>
+            <option value="onkeydown">onkeydown</option>
+            <option value="onkeypress">onkeypress</option>
+            <option value="onkeyup">onkeyup</option>
+            <option value="onload">onload</option>
+            <option value="onloadeddata">onloadeddata</option>
+            <option value="onloadedmetadata">onloadedmetadata</option>
+            <option value="onloadstart">onloadstart</option>
+            <option value="onmousedown">onmousedown</option>
+            <option value="onmousemove">onmousemove</option>
+            <option value="onmouseout">onmouseout</option>
+            <option value="onmouseover">onmouseover</option>
+            <option value="onmouseup">onmouseup</option>
+            <option value="onmousewheel">onmousewheel</option>
+            <option value="onoffline">onoffline</option>
+            <option value="ononline">ononline</option>
+            <option value="onpagehide">onpagehide</option>
+            <option value="onpageshow">onpageshow</option>
+            <option value="onpaste">onpaste</option>
+            <option value="onpause">onpause</option>
+            <option value="onplay">onplay</option>
+            <option value="onplaying">onplaying</option>
+            <option value="onpopstate">onpopstate</option>
+            <option value="onprogress">onprogress</option>
+            <option value="onratechange">onratechange</option>
+            <option value="onreset">onreset</option>
+            <option value="onresize">onresize</option>
+            <option value="onscroll">onscroll</option>
+            <option value="onsearch">onsearch</option>
+            <option value="onseeked">onseeked</option>
+            <option value="onseeking">onseeking</option>
+            <option value="onselect">onselect</option>
+            <option value="onstalled">onstalled</option>
+            <option value="onstorage">onstorage</option>
+            <option value="onsubmit">onsubmit</option>
+            <option value="onsuspend">onsuspend</option>
+            <option value="ontimeupdate">ontimeupdate</option>
+            <option value="ontoggle">ontoggle</option>
+            <option value="onunload">onunload</option>
+            <option value="onvolumechange">onvolumechange</option>
+            <option value="onwaiting">onwaiting</option>
+            <option value="onwheel">onwheel</option>
+            <option value="open">open</option>
+            <option value="optimum">optimum</option>
+            <option value="pattern">pattern</option>
+            <option value="placeholder">placeholder</option>
+            <option value="poster">poster</option>
+            <option value="preload">preload</option>
+            <option value="readonly">readonly</option>
+            <option value="rel">rel</option>
+            <option value="required">required</option>
+            <option value="reversed">reversed</option>
+            <option value="rows">rows</option>
+            <option value="rowspan">rowspan</option>
+            <option value="sandbox">sandbox</option>
+            <option value="scope">scope</option>
+            <option value="selected">selected</option>
+            <option value="shape">shape</option>
+            <option value="size">size</option>
+            <option value="sizes">sizes</option>
+            <option value="span">span</option>
+            <option value="spellcheck">spellcheck</option>
+            <option value="src">src</option>
+            <option value="srcdoc">srcdoc</option>
+            <option value="srclang">srclang</option>
+            <option value="srcset">srcset</option>
+            <option value="start">start</option>
+            <option value="step">step</option>
+            <option value="style">style</option>
+            <option value="tabindex">tabindex</option>
+            <option value="target">target</option>
+            <option value="title">title</option>
+            <option value="translate">translate</option>
+            <option value="type">type</option>
+            <option value="usemap">usemap</option>
+            <option value="value">value</option>
+            <option value="width">width</option>
+            <option value="wrap">wrap</option>
+
+        </select>
+        = <input type="text">
+        &gt &lt/&gt
+    </h2>
+
+    <h3>Types Of HTML Tags - <a href="https://www.w3schools.com/tags/ref_byfunc.asp">Click</a> To See HTML Elements</h3>
+
+    <ol>
+        <li>Basic</li>
+        <li>Formatting</li>
+        <li>Forms And Input</li>
+        <li>Frames</li>
+        <li>Images</li>
+        <li>Audio/Video</li>
+        <li>Lists</li>
+        <li>Links</li>
+        <li>Tables</li>
+        <li>Style And Semantics</li>
+        <li>Meta Information</li>
+        <li>Programming</li>
+    </ol>
+
+    <h3>Types Of Attributes - <a href="https://www.w3schools.com/tags/ref_attributes.asp">Click</a> To See All HTML Attributes</h3>
+    
+    <ol>
+        <li>Global - <a href="https://www.w3schools.com/tags/ref_standardattributes.asp"> Click</a> To See Global Attributes</li>
+        <li>Event  - <a href="https://www.w3schools.com/tags/ref_eventattributes.asp"> Click</a> To See Event Attributes</li>
+        <li>Style  - <i><b>Note : </b></i>Style attribute value can be 1. Inline 2. External a. Global Via &ltlink&gt Tag or b. JavaScript script - <a href="https://www.w3schools.com/jsref/dom_obj_style.asp">Click</a> To See Style Object Properties And Methods</li>
+        <li>Element-specific - <i><b>Note:</b></i> Visit Every HTML Tag Page Individually </li>
+    </ol>
+
+    <h3>Types Of Event Attributes - <a href="https://www.w3schools.com/tags/ref_eventattributes.asp">Click</a> To See Event Attributes</h3>
+
+    <ol>
+        <li>Global   </li>
+        <li>Window   </li>
+        <li>Form     </li>
+        <li>Keyboard </li>
+        <li>Mouse    </li>
+        <li>Drag     </li>
+        <li>Clipboard</li>
+        <li>Media    </li>
+        <li>Misc     </li>
+    </ol>
+
+    <h3>Special HTML Tags </h3>
+    <ol>
+        <li>HTML Favicons : <a href="https://www.w3schools.com/html/html_favicon.asp">Click</a> To See Use Of Favicons</li>
+        <li>HTML Language Code Reference : <a href="https://www.w3schools.com/tags/ref_language_codes.asp">Click</a> To See Language Codes</li>
+        <li>HTML ISO Country Codes : <a href="https://www.w3schools.com/tags/ref_country_codes.asp">Click</a> To See ISO Country Codes</li>
+        <li>HTML Symbols : <a href="">Click</a> To See All Symbols In HTML Code.</li>
+        <li>HTML Charset : <a href="https://www.w3schools.com/html/html_charset.asp">Click</a></li>
+        <li>Currency Symbols : <a href="https://www.w3schools.com/charsets/ref_utf_currency.asp">Click</a> To Use In HTML Documents</li>
+        <li>Math Operators : <a href="https://www.w3schools.com/charsets/ref_utf_math.asp">Click</a> To See Maths Symbols In HTML Docs</li>
+        <li>Emojis : <a href="https://www.w3schools.com/charsets/ref_emoji.asp">Click</a> To See Emojis In HTML Docs</li>
+        <li>Geometric Shapes : <a href="https://www.w3schools.com/charsets/ref_utf_geometric.asp">Click</a> To See Shapes</li>
+        <li>Arrows : <a href="https://www.w3schools.com/charsets/ref_utf_arrows.asp">Click</a> To See All Arrows</li>
+        <li>HTTP Messages : <a href="">Click</a> HTTP Messages Sent HTML Error Messages</li>
+        <li>HTTP Methods : <a href="">Click</a> HTTP Methods For Communication Between Client And Server</li>
+    </ol>
+    
+
+    <h3>HTML APIS</h3>
+    <ul>
+        <li>HTML Geolocation : <a href="https://www.w3schools.com/html/html5_geolocation.asp">Click</a> To See API Details</li>
+        <li>HTML Drag/Drop : <a href="https://www.w3schools.com/html/html5_draganddrop.asp">Click</a> To See API Details</li>
+        <li>HTML Web Storage : <a href="https://www.w3schools.com/html/html5_webstorage.asp">Click</a> To See API Details</li>
+        <li>HTML Web Workerd : <a href="https://www.w3schools.com/html/html5_webworkers.asp">Click</a> To See API Details</li>
+        <li>HTML SSE : <a href="https://www.w3schools.com/html/html5_serversentevents.asp">Click</a> To See API Details</li>
+    </ul>
+
+    <h3>Web Development Tutorials</h3>
+
+    <ol>
+        <li>HTML : <a href="https://www.w3schools.com/html/default.asp">                            Click</a> For HTML Tutorials</li>
+        <li>JavaScript : <a href="https://www.w3schools.com/js/default.asp">                        Click</a> For JavaScript Tutorials</li>
+        <li>Responsive Web Development : <a href="https://www.w3schools.com/css/css_rwd_intro.asp"> Click</a> For Tutorials</li>
+        <li>Icons : <a href="https://www.w3schools.com/icons/default.asp">                          Click</a> For Tutorials</li>
+        <li>Canvas : <a href="https://www.w3schools.com/graphics/canvas_intro.asp">                 Click</a> For Tutorials</li>
+        <li>SVG : <a href="https://www.w3schools.com/graphics/svg_intro.asp">                       Click</a> For Tutorials</li>
+        <li>Sass : <a href="https://www.w3schools.com/sass/default.php">                            Click</a> For Tutorials</li>
+        <li>Graphics : <a href="https://www.w3schools.com/graphics/default.asp">                    Click</a> For Tutorials</li>
+        <li>Node.js : <a href="https://www.w3schools.com/nodejs/default.asp">                       Click</a> For Tutorials</li>
+        <li>Git : <a href="https://www.w3schools.com/git/default.asp">                              Click</a> For Tutorials</li>
+        <li>AppML : <a href="https://www.w3schools.com/appml/default.asp">                          Click</a>For Application Modelling Tutorials</li>
+    </ol>
+
+</div>
+
+<!--This JS Reference : APIs Used In JS Files-->
+<div class="HTML-DOM Ref">
+    <h3>
+        HTML DOM Reference
+    </h3>
+    <ul>
+        <li><a href="https://www.w3schools.com/jsref/obj_window.asp">         Window Object           </li></a>
+        <li><a href="https://www.w3schools.com/jsref/dom_obj_document.asp">   Document Object   </li></a>
+        <li><a href="https://www.w3schools.com/jsref/dom_obj_all.asp">        Element Object         </li></a>
+        <li><a href="https://www.w3schools.com/jsref/dom_obj_event.asp">      Event Object         </li></a>
+        <li><a href="https://www.w3schools.com/jsref/dom_obj_style.asp">      Style Object         </li></a>
+        <li><a href="https://www.w3schools.com/jsref/dom_obj_attributes.asp"> Attribute Object</li></a>
+        <li><a href="https://www.w3schools.com/jsref/obj_screen.asp">         Screen Object           </li></a>
+        <li><a href="https://www.w3schools.com/jsref/obj_navigator.asp">      Navigator            </li></a>
+        <li><a href="https://www.w3schools.com/jsref/obj_location.asp">       Location              </li></a>
+    </ul>
+</div>
+
+<div class="Event-Objects">
+    <h3>
+        Types Of Event Objects : <a href="https://www.w3schools.com/jsref/obj_events.asp">Click</a> To See All Event Objects
+    </h3>
+    <ul>
+        <li><a href="https://www.w3schools.com/jsref/obj_event.asp">               Event               </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_animationevent.asp">      AnimationEventClick </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_clipboardevent.asp">      ClipboardEvent      </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_dragevent.asp">           DragEvent           </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_focusevent.asp">          FocusEvent          </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_hashchangeevent.asp">     HashChangeEvent     </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_inputevent.asp">          InputEvent          </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_keyboardevent.asp">       KeyboardEvent       </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_mouseevent.asp">          MouseEvent          </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_pagetransitionevent.asp"> PageTransitionEvent </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_popstateevent.asp">       PopStateEvent       </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_progressevent.asp">       ProgressEvent       </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_storageevent.asp">        StorageEvent        </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_touchevent.asp">          TouchEvent          </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_transitionevent.asp">     TransitionEvent     </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_uievent.asp">             UiEvent             </a></li>
+        <li><a href="https://www.w3schools.com/jsref/obj_wheelevent.asp">          WheelEvent          </a></li>
+    </ul> 
+</div>
+
+<div class="Web-API">
+    <h3>
+        Web APIs
+    </h3>
+
+    <ul>
+    <li><a href="https://www.w3schools.com/jsref/api_console.asp">     Console         </li></a>
+    <li><a href="https://www.w3schools.com/jsref/api_geolocation.asp"> Geolocation </li></a>
+    <li><a href="https://www.w3schools.com/jsref/api_storage.asp">     Storage         </li></a>
+    <li><a href="https://www.w3schools.com/jsref/api_history.asp">     History         </li></a>
+    </ul>
+</div>
+
+<div class="JS-Ref">
+    <h3>
+        JS Reference - Standard Objects (Available In Both Browser And NodeJS)
+    </h3>
+    <ul>
+        <li><a href="https://www.w3schools.com/jsref/jsref_obj_array.asp">   Array   </li></a>
+        <li><a href="https://www.w3schools.com/jsref/jsref_obj_boolean.asp"> Boolean </li></a>
+        <li><a href="https://www.w3schools.com/jsref/jsref_obj_global.asp">  Global  </li></a>
+        <li><a href="https://www.w3schools.com/jsref/jsref_obj_date.asp">    Date    </li></a>
+        <li><a href="https://www.w3schools.com/jsref/jsref_obj_error.asp">   Error   </li></a>
+        <li><a href="https://www.w3schools.com/jsref/jsref_obj_json.asp">    JSON    </li></a>
+        <li><a href="https://www.w3schools.com/jsref/jsref_obj_math.asp">    Math    </li></a>
+        <li><a href="https://www.w3schools.com/jsref/jsref_obj_number.asp">  Number  </li></a>
+        <li><a href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp">  RegExp  </li></a>
+        <li><a href="https://www.w3schools.com/jsref/jsref_obj_string.asp">  String  </li></a>
+    </ul>
+</div>
+
+<div class="Element-objects">
+    <h3>
+        Element Objects Reference 
+    </h3>    
+    <a href="https://www.w3schools.com/JSREF/dom_obj_anchor.asp">       <input type="button"  value=" a "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_abbr.asp">         <input type="button"  value=" abbr "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_address.asp">      <input type="button"  value=" address "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_area.asp">         <input type="button"  value=" area "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_article.asp">      <input type="button"  value=" article "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_aside.asp">        <input type="button"  value=" aside "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_audio.asp">        <input type="button"  value=" audio "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_b.asp">            <input type="button"  value=" b "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_base.asp">         <input type="button"  value=" base "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_bdo.asp">          <input type="button"  value=" bdo "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_blockquote.asp">   <input type="button"  value=" blockquote "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_body.asp">         <input type="button"  value=" body "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_br.asp">           <input type="button"  value=" br "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_pushbutton.asp">   <input type="button"  value=" button "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_canvas.asp">       <input type="button"  value=" canvas "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_caption.asp">      <input type="button"  value=" caption "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_cite.asp">         <input type="button"  value=" cite "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_code.asp">         <input type="button"  value=" code "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_col.asp">          <input type="button"  value=" col "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_colgroup.asp">     <input type="button"  value=" colgroup "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_datalist.asp">     <input type="button"  value=" datalist "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_dd.asp">           <input type="button"  value=" dd "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_del.asp">          <input type="button"  value=" del "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_details.asp">      <input type="button"  value=" details "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_dfn.asp">          <input type="button"  value=" dfn "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_dialog.asp">       <input type="button"  value=" dialog "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_div.asp">          <input type="button"  value=" div "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_dl.asp">           <input type="button"  value=" dl "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_dt.asp">           <input type="button"  value=" dt "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_em.asp">           <input type="button"  value=" em "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_embed.asp">        <input type="button"  value=" embed "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_fieldset.asp">     <input type="button"  value=" fieldset "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_figcaption.asp">   <input type="button"  value=" figcaption "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_figure.asp">       <input type="button"  value=" figure "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_footer.asp">       <input type="button"  value=" footer "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_form.asp">         <input type="button"  value=" form "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_head.asp">         <input type="button"  value=" head "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_header.asp">       <input type="button"  value=" header "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_heading.asp">      <input type="button"  value=" h1 "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_hr.asp">           <input type="button"  value=" hr "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_html.asp">         <input type="button"  value=" html "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_i.asp">            <input type="button"  value=" i "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_frame.asp">        <input type="button"  value=" iframe "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_image.asp">        <input type="button"  value=" img "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_ins.asp">          <input type="button"  value=" ins "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_button.asp">       <input type="button"  value=" input "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_label.asp">        <input type="button"  value=" label "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_legend.asp">       <input type="button"  value=" legend "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_li.asp">           <input type="button"  value=" li "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_link.asp">         <input type="button"  value=" link "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_map.asp">          <input type="button"  value=" map "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_mark.asp">         <input type="button"  value=" mark "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_menu.asp">         <input type="button"  value=" menu "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_menuitem.asp">     <input type="button"  value=" menuitem "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_meta.asp">         <input type="button"  value=" meta "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_meter.asp">        <input type="button"  value=" meter "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_nav.asp">          <input type="button"  value=" nav "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_object.asp">       <input type="button"  value=" object "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_ol.asp">           <input type="button"  value=" ol "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_optgroup.asp">     <input type="button"  value=" optgroup "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_option.asp">       <input type="button"  value=" option "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_output.asp">       <input type="button"  value=" output "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_paragraph.asp">    <input type="button"  value=" p "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_param.asp">        <input type="button"  value=" param "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_pre.asp">          <input type="button"  value=" pre "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_progress.asp">     <input type="button"  value=" progress "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_quote.asp">        <input type="button"  value=" q "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_s.asp">            <input type="button"  value=" s "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_samp.asp">         <input type="button"  value=" samp "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_script.asp">       <input type="button"  value=" script "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_section.asp">      <input type="button"  value=" section "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_select.asp">       <input type="button"  value=" select "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_small.asp">        <input type="button"  value=" small "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_source.asp">       <input type="button"  value=" source "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_span.asp">         <input type="button"  value=" span "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_strong.asp">       <input type="button"  value=" strong "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_style.asp">        <input type="button"  value=" style "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_sub.asp">          <input type="button"  value=" sub "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_summary.asp">      <input type="button"  value=" summary "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_sup.asp">          <input type="button"  value=" sup "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_table.asp">        <input type="button"  value=" table "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_tbody.asp">        <input type="button"  value=" tbody "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_tabledata.asp">    <input type="button"  value=" td "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_tfoot.asp">        <input type="button"  value=" tfoot "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_tablehead.asp">    <input type="button"  value=" th "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_thead.asp">        <input type="button"  value=" thead "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_tablerow.asp">     <input type="button"  value=" tr "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_textarea.asp">     <input type="button"  value=" textarea "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_time.asp">         <input type="button"  value=" time "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_title.asp">        <input type="button"  value=" title "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_track.asp">        <input type="button"  value=" track "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_u.asp">            <input type="button"  value=" u "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_ul.asp">           <input type="button"  value=" ul "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_var.asp">          <input type="button"  value=" var "></a>
+    <a href="https://www.w3schools.com/JSREF/dom_obj_video.asp">        <input type="button"  value=" video "></a>
+    
+</div>
+
+</body>
+
+</html>
